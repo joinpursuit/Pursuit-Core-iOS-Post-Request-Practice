@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD02101823EC7914008F0953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02101723EC7914008F0953 /* AppDelegate.swift */; };
+		CD02101A23EC7914008F0953 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02101923EC7914008F0953 /* SceneDelegate.swift */; };
+		CD02101C23EC7914008F0953 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02101B23EC7914008F0953 /* UsersViewController.swift */; };
+		CD02101F23EC7914008F0953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD02101D23EC7914008F0953 /* Main.storyboard */; };
+		CD02102123EC791A008F0953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD02102023EC791A008F0953 /* Assets.xcassets */; };
+		CD02102423EC791A008F0953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD02102223EC791A008F0953 /* LaunchScreen.storyboard */; };
+		CD02102F23EC791A008F0953 /* PostmanEchoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02102E23EC791A008F0953 /* PostmanEchoTests.swift */; };
+		CD02103A23EC79CC008F0953 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02103923EC79CC008F0953 /* User.swift */; };
+		CD02103C23EC7A3D008F0953 /* userData.json in Resources */ = {isa = PBXBuildFile; fileRef = CD02103B23EC7A3D008F0953 /* userData.json */; };
+		CD02103F23EC7AB4008F0953 /* BundleFetchingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02103D23EC7A4F008F0953 /* BundleFetchingService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD02102B23EC791A008F0953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD02100C23EC7914008F0953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD02101323EC7914008F0953;
+			remoteInfo = PostmanEcho;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD02101423EC7914008F0953 /* PostmanEcho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostmanEcho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD02101723EC7914008F0953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD02101923EC7914008F0953 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD02101B23EC7914008F0953 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		CD02101E23EC7914008F0953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD02102023EC791A008F0953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD02102323EC791A008F0953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD02102523EC791A008F0953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD02102A23EC791A008F0953 /* PostmanEchoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostmanEchoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD02102E23EC791A008F0953 /* PostmanEchoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostmanEchoTests.swift; sourceTree = "<group>"; };
+		CD02103023EC791A008F0953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD02103923EC79CC008F0953 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CD02103B23EC7A3D008F0953 /* userData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = userData.json; sourceTree = "<group>"; };
+		CD02103D23EC7A4F008F0953 /* BundleFetchingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BundleFetchingService.swift; path = PostmanEcho/BundleFetchingService.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD02101123EC7914008F0953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD02102723EC791A008F0953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD02100B23EC7914008F0953 = {
+			isa = PBXGroup;
+			children = (
+				CD02101623EC7914008F0953 /* PostmanEcho */,
+				CD02102D23EC791A008F0953 /* PostmanEchoTests */,
+				CD02101523EC7914008F0953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD02101523EC7914008F0953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD02101423EC7914008F0953 /* PostmanEcho.app */,
+				CD02102A23EC791A008F0953 /* PostmanEchoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD02101623EC7914008F0953 /* PostmanEcho */ = {
+			isa = PBXGroup;
+			children = (
+				CD02103B23EC7A3D008F0953 /* userData.json */,
+				CD02101723EC7914008F0953 /* AppDelegate.swift */,
+				CD02101923EC7914008F0953 /* SceneDelegate.swift */,
+				CD02101B23EC7914008F0953 /* UsersViewController.swift */,
+				CD02103D23EC7A4F008F0953 /* BundleFetchingService.swift */,
+				CD02103923EC79CC008F0953 /* User.swift */,
+				CD02101D23EC7914008F0953 /* Main.storyboard */,
+				CD02102023EC791A008F0953 /* Assets.xcassets */,
+				CD02102223EC791A008F0953 /* LaunchScreen.storyboard */,
+				CD02102523EC791A008F0953 /* Info.plist */,
+			);
+			path = PostmanEcho;
+			sourceTree = "<group>";
+		};
+		CD02102D23EC791A008F0953 /* PostmanEchoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD02102E23EC791A008F0953 /* PostmanEchoTests.swift */,
+				CD02103023EC791A008F0953 /* Info.plist */,
+			);
+			path = PostmanEchoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD02101323EC7914008F0953 /* PostmanEcho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD02103323EC791A008F0953 /* Build configuration list for PBXNativeTarget "PostmanEcho" */;
+			buildPhases = (
+				CD02101023EC7914008F0953 /* Sources */,
+				CD02101123EC7914008F0953 /* Frameworks */,
+				CD02101223EC7914008F0953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostmanEcho;
+			productName = PostmanEcho;
+			productReference = CD02101423EC7914008F0953 /* PostmanEcho.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD02102923EC791A008F0953 /* PostmanEchoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD02103623EC791A008F0953 /* Build configuration list for PBXNativeTarget "PostmanEchoTests" */;
+			buildPhases = (
+				CD02102623EC791A008F0953 /* Sources */,
+				CD02102723EC791A008F0953 /* Frameworks */,
+				CD02102823EC791A008F0953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD02102C23EC791A008F0953 /* PBXTargetDependency */,
+			);
+			name = PostmanEchoTests;
+			productName = PostmanEchoTests;
+			productReference = CD02102A23EC791A008F0953 /* PostmanEchoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD02100C23EC7914008F0953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Benjamin Stone";
+				TargetAttributes = {
+					CD02101323EC7914008F0953 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CD02102923EC791A008F0953 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CD02101323EC7914008F0953;
+					};
+				};
+			};
+			buildConfigurationList = CD02100F23EC7914008F0953 /* Build configuration list for PBXProject "PostmanEcho" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD02100B23EC7914008F0953;
+			productRefGroup = CD02101523EC7914008F0953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD02101323EC7914008F0953 /* PostmanEcho */,
+				CD02102923EC791A008F0953 /* PostmanEchoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD02101223EC7914008F0953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD02102423EC791A008F0953 /* LaunchScreen.storyboard in Resources */,
+				CD02102123EC791A008F0953 /* Assets.xcassets in Resources */,
+				CD02103C23EC7A3D008F0953 /* userData.json in Resources */,
+				CD02101F23EC7914008F0953 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD02102823EC791A008F0953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD02101023EC7914008F0953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD02103A23EC79CC008F0953 /* User.swift in Sources */,
+				CD02101C23EC7914008F0953 /* UsersViewController.swift in Sources */,
+				CD02103F23EC7AB4008F0953 /* BundleFetchingService.swift in Sources */,
+				CD02101823EC7914008F0953 /* AppDelegate.swift in Sources */,
+				CD02101A23EC7914008F0953 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD02102623EC791A008F0953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD02102F23EC791A008F0953 /* PostmanEchoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD02102C23EC791A008F0953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD02101323EC7914008F0953 /* PostmanEcho */;
+			targetProxy = CD02102B23EC791A008F0953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD02101D23EC7914008F0953 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD02101E23EC7914008F0953 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD02102223EC791A008F0953 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD02102323EC791A008F0953 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD02103123EC791A008F0953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD02103223EC791A008F0953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD02103423EC791A008F0953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26RHXP32FH;
+				INFOPLIST_FILE = PostmanEcho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuit.PostmanEcho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD02103523EC791A008F0953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26RHXP32FH;
+				INFOPLIST_FILE = PostmanEcho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuit.PostmanEcho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD02103723EC791A008F0953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26RHXP32FH;
+				INFOPLIST_FILE = PostmanEchoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuit.PostmanEchoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostmanEcho.app/PostmanEcho";
+			};
+			name = Debug;
+		};
+		CD02103823EC791A008F0953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26RHXP32FH;
+				INFOPLIST_FILE = PostmanEchoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuit.PostmanEchoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostmanEcho.app/PostmanEcho";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD02100F23EC7914008F0953 /* Build configuration list for PBXProject "PostmanEcho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD02103123EC791A008F0953 /* Debug */,
+				CD02103223EC791A008F0953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD02103323EC791A008F0953 /* Build configuration list for PBXNativeTarget "PostmanEcho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD02103423EC791A008F0953 /* Debug */,
+				CD02103523EC791A008F0953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD02103623EC791A008F0953 /* Build configuration list for PBXNativeTarget "PostmanEchoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD02103723EC791A008F0953 /* Debug */,
+				CD02103823EC791A008F0953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD02100C23EC7914008F0953 /* Project object */;
+}
